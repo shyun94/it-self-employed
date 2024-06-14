@@ -23,7 +23,7 @@ importers:
 
   apps/docs:
     dependencies:
-      '@repo/ui':
+      '@ise/design-system':
         specifier: workspace:*
         version: link:../../packages/ui
       next:
@@ -148,7 +148,7 @@ importers:
 
   apps/web:
     dependencies:
-      '@repo/ui':
+      '@ise/design-system':
         specifier: workspace:*
         version: link:../../packages/ui
       next:
@@ -202,7 +202,7 @@ importers:
         version: 7.1.0(eslint@8.57.0)(typescript@5.3.3)
       '@vercel/style-guide':
         specifier: ^5.2.0
-        version: 5.2.0(@next/eslint-plugin-next@14.2.3)(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)
+        version: 5.2.0(@next/eslint-plugin-next@15.0.0-rc.0)(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)
       eslint-config-prettier:
         specifier: ^9.1.0
         version: 9.1.0(eslint@8.57.0)
@@ -4840,7 +4840,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vercel/style-guide@5.2.0(@next/eslint-plugin-next@14.2.3)(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)':
+  '@vercel/style-guide@5.2.0(@next/eslint-plugin-next@15.0.0-rc.0)(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)':
     dependencies:
       '@babel/core': 7.23.3
       '@babel/eslint-parser': 7.23.3(@babel/core@7.23.3)(eslint@8.57.0)
@@ -4862,7 +4862,7 @@ snapshots:
       eslint-plugin-unicorn: 48.0.1(eslint@8.57.0)
       prettier-plugin-packagejson: 2.4.6(prettier@3.2.5)
     optionalDependencies:
-      '@next/eslint-plugin-next': 14.2.3
+      '@next/eslint-plugin-next': 15.0.0-rc.0
       eslint: 8.57.0
       prettier: 3.2.5
       typescript: 5.3.3

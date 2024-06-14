@@ -1,4 +1,4 @@
-import { Button } from "@repo/ui/button";
+import { Button } from "@ise/design-system";
 import Image from "next/image";
 
 export default function Home() {
