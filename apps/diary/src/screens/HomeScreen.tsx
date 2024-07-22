@@ -1,9 +1,9 @@
 import { Button, StyleSheet, Text, View } from "react-native";
-import { ScreenProps } from "../navigation/AppNavigation";
+import { DiaryScreenProps } from "../navigation/AppNavigation";
 import { useGetPosts } from "../presentation/domain/post/hooks/useGetPosts";
 import PostItem from "../presentation/domain/post/components/PostItem";
 
-interface Props extends ScreenProps {}
+interface Props extends DiaryScreenProps {}
 
 export default function HomeScreen({ navigation }: Props) {
   const { data: posts } = useGetPosts();
